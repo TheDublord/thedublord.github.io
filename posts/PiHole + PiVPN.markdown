@@ -27,6 +27,7 @@ Hit enter, it'll ask for donations, just hit enter again, it will explain you ne
 11) The dialogue explains this but its asking what privacy level you want, [here](https://docs.pi-hole.net/ftldns/privacylevels/) is a list of specifics for those that have a specific use case but otherwise I would leave it at 0 as you'll get the most detail in the web interface. 
 
 And finally it will install everything, it shouldn't take too long. 
+
 12) The install will finish and this screen you want to take note of as this gives you the IP you will use for the DNS as well as where to log into the web admin interface, and the password for it. 
 
 13) I highly recommend changing the admin password for the interface (and for the pi itself) you can use `pihole -a -p` to change the web admin password. 
